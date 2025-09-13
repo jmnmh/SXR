@@ -1,0 +1,36 @@
+{
+  "api": "https://github.com/jmnmh/SXR/",
+  "login_api": "https://github.com/jmnmh/SXR/login",
+  "update_url": "https://github.com/jmnmh/SXR/update",
+  "steam_url": "https://store.steampowered.com/",
+  "ui": {
+    "local": 0,
+    "paths": {
+      "login": "/login",
+      "dashboard": "/dashboard",
+      "css": "/css/",
+      "js": "/js/"
+    }
+  },
+  "api_endpoints": {
+    "game_fetch": "/api/v3/fetch/",
+    "file_download": "/api/v3/file/",
+    "get_file": "/api/v3/get/",
+    "patch_notes": "/api/v3/patch_notes/",
+    "version": "/api/v3/version/",
+    "socials": "/api/v3/socials/",
+    "launchers": "/api/v3/launchers/",
+    "heartbeat": "/api/v3/heartbeat"
+  },
+  "maintenance": {
+    "scheduled": "false",
+    "start_time": "",
+    "end_time": "",
+    "message": ""
+  },
+  "heartbeat": {
+    "enabled": true,
+    "interval_ms": 60000,
+    "enabled_for_guests": true
+  }
+}
